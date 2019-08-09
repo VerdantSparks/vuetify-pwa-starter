@@ -7,11 +7,13 @@ Node Package Manager
 
 run `npm list -qlobal -depth 0` to show installed global package
 
+<pre>
 /usr/local/lib
 ├── @vue/cli@3.10.0
 ├── @vue/cli-service-global@3.9.2
 ├── http-server@0.11.1
 └── npm@6.9.0
+</pre>
 
 you will need the following packages installed:
 1. @vue/cli
@@ -20,12 +22,15 @@ you will need the following packages installed:
 
 run `vue create vue-pwa-starter`
 
+<pre>
 ? Please pick a preset: (Use arrow keys)
 ❯ default (babel, eslint) 
   Manually select features 
+</pre>
 
 choose "Manually select features"
 
+<pre>
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: 
  ◉ Babel
@@ -37,9 +42,11 @@ choose "Manually select features"
  ◉ Linter / Formatter
  ◉ Unit Testing
 ❯◉ E2E Testing
+</pre>
 
 select all
 
+<pre>
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Babel, TS, PWA, Router, Vuex, CSS Pre-processors, Linter, Unit, E2E
 ? Use class-style component syntax? Yes
@@ -51,6 +58,7 @@ select all
 ? Pick a unit testing solution: Jest
 ? Pick a E2E testing solution: Cypress
 ? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? In package.json
+</pre>
 
 run `cd vue-pwa-starter`
 
@@ -58,8 +66,10 @@ run `npm run build`
 
 run `npm run serve`
 
+<pre>
   App running at:
   - Local:   http://localhost:8081/ 
+</pre>
 
 since ServiceWorker need to run in HTTPS, we need to create SSL certificate for development test.
 
@@ -71,9 +81,11 @@ with code compiled by `npm run build` at `dist` folder
 
 run `http-server dist -S -C cert.pem`
 
+<pre>
 Starting up http-server, serving dist through https
 Available on:
   https://127.0.0.1:8080
+</pre>
 
 now you can view the web from your mobile phone.
 
