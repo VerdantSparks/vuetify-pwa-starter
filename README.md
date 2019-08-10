@@ -1,6 +1,8 @@
 # vue-pwa-starter
 This is a starter Vue project template with all features added.
 
+Plugins: [Vuetify]
+
 ## pre-requisites:
 OpenSSL
 Node Package Manager
