@@ -1,4 +1,4 @@
-# vue-pwa-starter
+# full-vue-starter
 This is a starter Vue project template with all features added.
 
 Plugins: [Vuetify]
@@ -22,7 +22,9 @@ you will need the following packages installed:
 2. @vue/cli-service-global
 3. http-server
 
-run `vue create vue-pwa-starter`
+## steps used to create this repository
+
+run `vue create full-vue-starter`
 
 <pre>
 ? Please pick a preset: (Use arrow keys)
@@ -62,7 +64,7 @@ select all
 ? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? In package.json
 </pre>
 
-run `cd vue-pwa-starter`
+run `cd full-vue-starter`
 
 run `npm run build`
 
