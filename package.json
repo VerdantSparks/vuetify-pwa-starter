@@ -17,7 +17,7 @@
     "vue-property-decorator": "^8.2.2",
     "vue-router": "^3.0.3",
     "vuetify": "^2.1.6",
-    "vuex": "^3.0.1"
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
