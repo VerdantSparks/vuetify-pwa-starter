@@ -1,4 +1,4 @@
-# full-vue-starter [![CodeFactor](https://www.codefactor.io/repository/github/verdantsparks/full-vue-starter/badge)](https://www.codefactor.io/repository/github/verdantsparks/full-vue-starter)
+# full-vue-starter [![CodeFactor](https://www.codefactor.io/repository/github/verdantsparks/vuetify-pwa-starter/badge)](https://www.codefactor.io/repository/github/verdantsparks/vuetify-pwa-starter)
 This is a starter Vue project template with all features added.
 
 Plugins: [Vuetify]
